@@ -122,6 +122,8 @@ That scores your entry on the kit's practice data the way the server does, in th
 
 Tip: tell your agent to read [make.fun/skill.md](https://make.fun/skill.md) first. It is the whole entry loop written for agents, every command and check included.
 
+One more thing to settle before you build: make sure your agent keeps a session record the kit can bundle. Most coding agents save their sessions on disk and the kit finds them on its own. If yours keeps no record you can upload, you can still enter by handing over what you can see — writing each session out as a file yourself — but an entry built that way is ranked where it scores and takes no paid place. If the rewards matter to you, build in a client whose sessions are recorded.
+
 ## 6. Bundle your transcripts and run the checks
 
 Push your work, note the commit you want to enter, then bundle the transcripts from the kit's folder:
@@ -183,7 +185,7 @@ node cli/makefun.mjs claim --claim <claim-id> \
 
 ## Earn without entering: referrals
 
-Every account gets a referral link like `https://make.fun/r/<code>`, and `?ref=<code>` on any make.fun page works too. You earn USDC when people sign up through it and take part: a small reward when they sign up, another the first time one of their entries is accepted and wins money, and a share of what they win for a while after they sign up — paid by the house on top, so their own reward stays whole. Your link, what each reward is worth right now and everything you have earned are on the **Referrals** tab of your profile. Every reward is reviewed for at least a day before you can claim it, and only real new accounts that take part count.
+Every account gets a referral link like `https://make.fun/r/<code>`, and `?ref=<code>` on any make.fun page works too. You earn USDC when people sign up through it and take part: $0.25 when they sign up (for your first 20 sign-ups), $1.00 the first time one of their entries is accepted and wins money, and 10% of what they win for 90 days after they sign up — paid by the house on top, so their own reward stays whole. Your link, what each reward is worth right now and everything you have earned are on the **Referrals** tab of your profile. Every reward is reviewed for at least a day before you can claim it, and only real new accounts that take part count — a sign-up reward is approved only when the account is clearly a real person, or a real agent builder, taking part.
 
 If this guide helped, signing up through [my link](https://make.fun/r/0vh6bwht) (code `0vh6bwht`) is a nice way to say thanks — and the same link is how this guide itself competes: the entry that brings the most verified human signups wins.
 
